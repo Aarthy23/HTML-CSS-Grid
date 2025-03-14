@@ -1,0 +1,419 @@
+body{
+    background-color: rgb(232, 227, 227);
+}
+
+
+/* Navigation bar */
+ul{
+   
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    height: 100px;
+    background-color: grey;
+
+}
+.style_trio{
+    font-style:italic;
+    font-size: 50px;
+}
+li{
+    float: left;
+    padding: 10px;
+}
+.listed{
+    padding-left: 580px;
+    margin-top:20px;
+    font-size: 25px;
+}
+.nav{
+    margin: auto;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    font-family:monospace, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+   
+}
+li a:hover{
+    color: red;
+
+}
+
+/* Search Bar */
+.search{
+    margin-top: 20px;
+    float: right;
+    margin-right: 100px;
+}
+
+/* exclusive*/
+.exclusive{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color: rgb(161, 157, 157);
+    display: inline-block;
+    width: 500px;
+    margin-left: 380px;
+    
+}
+
+/* Image Gallery */
+div.gallery {
+    display: block;
+    width: 800px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+    }
+
+div.gallery img {
+        width: 100%;
+        height: 550px;
+    }
+
+/* Men Heading */
+.men_style_exclusives{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color: rgb(161, 157, 157);
+    display: inline-block;
+    width: 500px;
+    margin-left: 380px;
+    
+}
+
+
+/* Grid for men */ 
+.grid_men{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    height: 300px; 
+    text-align: center; 
+    margin: auto;
+    background-color: lightgray;
+    grid-template-rows:300px 80px;
+    width: 1010px;
+    row-gap: 5px;
+}
+.grid_men > div{
+    background-color: rgb(161, 157, 157);
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.grid_men > div:hover{
+    border-color: red;
+    border:5px solid red;
+}
+
+/* men 1 - Formals */
+.men1{
+    background-image: url(Html_Pictures/mens\ formal\ dress.jpg);
+    background-size: cover;
+    background-position: -10px ;
+    background-position: 8px ;
+    width: 200px;
+    
+}
+.men1 img{
+    height: auto;
+    width: 100%;
+    
+}
+.men11{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+/* men 2 - Dhotis */
+.men2{
+    background-image: url(Html_Pictures/mens\ dhotis.webp);
+    background-size: cover;
+    background-position: -20px ;
+    width: 200px;
+}
+.men2 img{
+    width: 100%;
+    height: auto;
+}
+.men22{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+
+/* men 3 - shorts and t -shirts */
+.men3{
+    background-image: url(Html_Pictures/mens\ shorts.webp);
+    background-size: cover;
+    width: 200px;
+}
+.men3 img{
+    height: auto;
+    width: 100%;
+}
+.men33{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+/* men 4 - Jeans */
+.men4{
+    background-image: url(Html_Pictures/mens\ jeans.jpg);
+    background-size:cover; 
+    width: 200px;
+}
+.men4 img{
+    height: auto;
+    width: 100%;
+}
+.men44{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+
+
+
+/* Women Heading */
+.women_style_exclusives{
+    margin-top: 100px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color:rgb(161, 157, 157);
+    display: inline-block;
+    width: 500px;
+    margin-left: 380px;
+}
+
+
+/* Grid for women */ 
+.grid_women{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    width: 1000px;
+    height: 300px; 
+    text-align: center; 
+    margin: auto;
+    column-gap: 15px;
+    background-color: lightgray;
+    grid-template-rows:300px 80px;
+    
+}
+.grid_women > div{
+    background-color: rgb(161, 157, 157);
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.grid_women > div:hover{
+    border-color: red;
+    border:5px solid red;
+}
+
+/* Women 1 - Kurtas */
+.women1{
+    background-image: url(Html_Pictures/women\ kurtas.webp);
+    background-size: cover;
+    background-position: -10px ;
+    background-position: 8px ;
+    width: 200px;
+}
+.women1 img{
+    height: auto;
+    width: 100%;
+    
+}
+.women11{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+/* Women 2 - Sarees */
+.women2{
+    background-image: url(Html_Pictures/women\ saree.jpg);
+    background-size: cover;
+    width: 200px;
+   
+}
+.women2 img{
+    height: auto;
+    width: 100%;
+}
+.women22{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+
+/* Women 3 - Crop tops and shirks */
+.women3{
+    background-image: url(Html_Pictures/women\ top.jpg);
+    background-size: cover;
+    width: 200px;
+}
+.women3 img{
+    height: auto;
+    width: 100%;
+}
+.women33{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+/* Women 4 - palazzos and Jeans */
+.women4{
+    background-image: url(Html_Pictures/women\ jeans.jpg);
+    background-size:cover; 
+    background-position: -10px ;
+    background-position: 8px ;
+    width: 200px;
+}
+.women4 img{
+    height: auto;
+    width: 100%;
+}
+.women44{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Kids Heading */
+.kids_style_exclusives{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color:rgb(161, 157, 157);
+    display: inline-block;
+    width: 500px;
+    margin-left: 380px;
+}
+
+
+/* Grid for kids */ 
+.grid_kids{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    width: 1000px;
+    height: 300px; 
+    text-align: center; 
+    margin: auto;
+    column-gap: 15px;
+    background-color: lightgray;
+    grid-template-rows:300px 80px;
+    
+}
+.grid_kids > div{
+    background-color: rgb(161, 157, 157);
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.grid_kids > div:hover{
+    border-color: red;
+    border:5px solid red;
+}
+
+/* Kids 1 - Outer wears */
+.kids1{
+    background-image: url(Html_Pictures/kids\ outerwear.jpg);
+    background-size: cover;
+    background-position: -50px;
+    width: 200px;
+    
+   
+}
+.kids1 img{
+    height: auto;
+    width: 100%;
+    
+}
+.kids11{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+/* Kids 2 - Frocks */
+.kids2{
+    background-image: url(Html_Pictures/kids\ frocks.webp);
+    background-size: cover;
+    width: 200px;
+
+    
+}
+.kids2 img{
+    height: auto;
+    width: 100%;
+}
+.kids22{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+
+/* Kids 3 - Playful dress */
+.kids3{
+    background-image: url(Html_Pictures/kids\ playful\ dress.jpg);
+    background-size: cover;
+    background-position: 0%;
+    width: 200px;
+}
+.kids3 img{
+    height: auto;
+    width: 100%;
+}
+.kids33{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+/* Kids 4 - baby wears */
+.kids4{
+    background-image: url(Html_Pictures/kids\ newborn.jpg);
+    background-size:cover; 
+    width: 200px;
+}
+.kids4 img{
+    height: auto;
+    width: 100%;
+}
+.kids44{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
